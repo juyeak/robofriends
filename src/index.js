@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Hello from './Hello.js';
+import Card from './Card.js';
 import registerServiceWorker from './registerServiceWorker';
 import 'tachyons';
 
-
+  
 
 ReactDOM.render (
-	// <h1>Hello World</h1>, 
-	<Hello greetings={'Hello' + 'React Ninja'}/>, 
+	<Card />, 
 	document.getElementById('root')
 );
 
